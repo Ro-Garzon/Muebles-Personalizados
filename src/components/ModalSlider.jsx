@@ -7,12 +7,9 @@ import 'swiper/css/pagination';
 
 import '../style/ModalSlider.css'
 
+
 export const ModalSlider = ({isOpen, setIsOpen, selectedImages}) => {
 
-    console.log(selectedImages[0])
-  
-
-    
 
     return (
         <>
@@ -39,7 +36,7 @@ export const ModalSlider = ({isOpen, setIsOpen, selectedImages}) => {
                         >
                             {selectedImages.map((photo, index) => (
                                 <SwiperSlide key={index}>
-                                <img src={photo} alt="Foto" className='slider-img'/>
+                                <img src={photo} alt="Foto del mueble" className='slider-img'/>
                                 </SwiperSlide>
                             ))}
 
@@ -52,6 +49,4 @@ export const ModalSlider = ({isOpen, setIsOpen, selectedImages}) => {
     )
 }
 
-/*
-{'\u2716'}
-*/
+

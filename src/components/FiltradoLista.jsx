@@ -1,8 +1,8 @@
 import { ModalSlider } from "./ModalSlider"
-import { useState} from 'react'
+import { useState, Suspense} from 'react'
 import { LazyLoadImage } from 'react-lazy-load-image-component';
-import cargando from '../assets/Cargando.png'
 import 'react-lazy-load-image-component/src/effects/blur.css';
+
 
 
 
@@ -28,8 +28,8 @@ export const FiltradoLista = ({muebleFiltrado}) => {
               <LazyLoadImage 
                 className='card-image' 
                 src={mueble.imagen[0]} 
-                effect="blur"
-                /> 
+                alt="Foto del mueble"
+              /> 
             <h2 className='card-title'>{mueble.title}</h2>
             <button 
               className='unstyle card-button'

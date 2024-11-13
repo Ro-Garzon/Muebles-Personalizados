@@ -75,11 +75,11 @@ function App() {
     <> 
       <header className='header'>
         <h1 className='title'>Muebles Personalizados</h1>
-        <p className='subtitle'>Diseñamos muebles que combinan estilo y funcionalidad</p> 
+        <p className='subtitle'>Diseñamos con estilo y funcionalidad</p> 
       </header>
       
       <div className='contact'>
-        <a className='unstyle contact-link' target="_blank" href="https://wa.me/">
+        <a className='unstyle contact-link' target="_blank" href="https://wa.me/5493876181319">
           <p>Solicitá tu presupuesto sin cargo</p>
           <img src={whatsapp } alt="whatsapp" className='contact-icono' />
         </a>
@@ -110,24 +110,21 @@ function App() {
             <FiltradoLista muebleFiltrado={muebleFiltrado}/>
           </main>
 
-          
-
         </>
         
       )}
 
-        
-        <a className='unstyle contact-whatsapp' target="_blank" href="https://wa.me/">
+        <a className='unstyle contact-whatsapp' target="_blank" href="https://wa.me/5493876181319">
           <img src={whatsapp2} alt="whatsapp" className='contact-img' />
         </a>
         
       
       
-      
-     
-      
       <footer className='foot'>
-        <p>Creado por ROG</p>
+        <a href="https://www.linkedin.com/in/ro-garzon/" target="_blank" className='unstyle creator-link'>
+          <p>Creado por Rog - 2024</p>
+        </a>
+        
       </footer>
 
 
@@ -137,10 +134,4 @@ function App() {
 
 export default App
 
-//Diseñamos muebles que combinan tus gustos y necesidades
-//https://ro-garzon.github.io/json-furniture/muebles.json
 
-//url(`${mueble.imagen}`)
-
-
-/* style={{backgroundImage:`url(${mueble.imagen})`}}>*/
