@@ -1,4 +1,6 @@
 import { useState } from 'react'
+import { VscChromeClose } from "react-icons/vsc";
+
 
 export const Categorias = ({categorias, filtrarCategorias, setShowFilter, showFilter}) => {
 
@@ -21,7 +23,9 @@ export const Categorias = ({categorias, filtrarCategorias, setShowFilter, showFi
           <button 
             className="unstyle category-close"
             onClick={() => setShowFilter(false)}
-            >🗙</button>
+            >
+              <VscChromeClose />
+            </button>
         </div>
         
         

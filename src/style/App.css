@@ -5,9 +5,9 @@
   --font-dark: #2d2d2b; 
   --font-light: #f6f1e8;
   
-  --bg-dark: #7a695d;
-  --bg-medium: #e0d4cc;
-  --bg-medium-transparent: #e0d4ccca;
+  --bg-dark: #776960;
+  --bg-medium: #dedbd1;
+  --bg-medium-transparent: #dedbd1b4;
   --bg-light:#f6f5f4;
 
   --blue:#7496b3;
@@ -35,6 +35,7 @@ body {
   background-color: var(--bg-light); 
   overflow-x: hidden;
 }
+
 
 .header{
   padding: 50px 0;
@@ -238,6 +239,10 @@ body {
 
 .creator-link{
   cursor: pointer;
+}
+
+.creator-link-logo{
+  margin-top: 10px;
 }
 
 

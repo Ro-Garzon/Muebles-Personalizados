@@ -7,6 +7,8 @@ import './style/App.css'
 import whatsapp from './assets/whatsapp-black.png'
 import whatsapp2 from './assets/whatsapp-white.png'
 import { FiFilter } from "react-icons/fi";
+import { ImLinkedin } from "react-icons/im";
+
 
 
 function App() {
@@ -123,6 +125,7 @@ function App() {
       <footer className='foot'>
         <a href="https://www.linkedin.com/in/ro-garzon/" target="_blank" className='unstyle creator-link'>
           <p>Creado por Rog - 2024</p>
+          <ImLinkedin className='creator-link-logo'/>
         </a>
         
       </footer>

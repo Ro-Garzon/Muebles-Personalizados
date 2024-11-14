@@ -4,6 +4,7 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
+import { VscChromeClose } from "react-icons/vsc";
 
 import '../style/ModalSlider.css'
 
@@ -20,7 +21,8 @@ export const ModalSlider = ({isOpen, setIsOpen, selectedImages}) => {
                             <button 
                                 className='unstyle close-icon'
                                 onClick={()=>setIsOpen(false)}
-                                >🗙
+                                >
+                                    <VscChromeClose />
                             </button>
                         </div>
 

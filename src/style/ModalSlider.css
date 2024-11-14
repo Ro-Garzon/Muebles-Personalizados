@@ -24,15 +24,13 @@
     cursor: pointer;
     font-size: 1.5rem;
     color:  var(--blue);
-    padding: 0 5px 5px 5px;
-    border-top-right-radius: 5px;
+    padding: 10px;
   }
   
   .close-modal:hover{
     color: var(--bg-medium);
   }
 
-  
 
   .slider-size{
     height: 80vh;
@@ -50,7 +48,6 @@
   }
   
   
-
   .swiper-button-prev, .swiper-button-next{
     color: var(--blue);
     padding: 30px 20px;
